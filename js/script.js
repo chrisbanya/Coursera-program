@@ -13,15 +13,15 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   var dc = {};
 
-  var homeHtmlUrl = "/Users/Adabanya%20Christain/Desktop/module5-solution/snippets/home-snippet.html";
+  var homeHtmlUrl = "snippets/home-snippet.html";
   var allCategoriesUrl =
     "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
-  var categoriesTitleHtml = "/Users/Adabanya%20Christain/Desktop/module5-solution/snippets/categories-title-snippet.html";
-  var categoryHtml = "/Users/Adabanya%20Christain/Desktop/module5-solution/snippets/category-snippet.html";
+  var categoriesTitleHtml = "snippets/categories-title-snippet.html";
+  var categoryHtml = "snippets/category-snippet.html";
   var menuItemsUrl =
     "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items/";
-  var menuItemsTitleHtml = "/Users/Adabanya%20Christain/Desktop/module5-solution/snippets/menu-items-title.html";
-  var menuItemHtml = "/Users/Adabanya%20Christain/Desktop/module5-solution/snippets/menu-item.html";
+  var menuItemsTitleHtml = "snippets/menu-items-title.html";
+  var menuItemHtml = "snippets/menu-item.html";
 
 
   function sendGetRequest(url, callback, isJsonResponse) {
